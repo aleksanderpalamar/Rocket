@@ -1,0 +1,74 @@
+:root {
+  --color-primary: #8768b3;
+  --color-secundary: #ff79c6;
+  --color-scrollbar: #8768b3;
+  --color-button-light: #b38ceb;
+  --color-button-dark: #ff9ad3;
+  --color-light: #8be9fd;
+  --color-dark-blue: rgba(108, 108, 148, 0.15);
+  --color-text: #333;
+  --color-text-light: #9b79cc;
+  --color-gray: #222;
+  --color-background: #222;
+  --color-white: #fff;
+  --color-box-base: #f5f5f5;
+  --color-box-footer: rgba(108, 108, 148, 0.15);
+  --color-input-background: #e0dfe2;
+
+  font-size: 60%;
+}
+
+:-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar);
+  border-radius: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hmtl,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
