@@ -68,4 +68,4 @@ O **Rocket** é uma aplicação Web feita para auxiliar na conexão entre os alu
 ```
 
 ---
-<sup>Projeto desenvolvido por [Aleksander Palamar](https://github.com/aleksanderpalamar), da [Blog](https://linuxupdate.com.br).</sup>
+<sup>Projeto desenvolvido por [Aleksander Palamar](https://github.com/aleksanderpalamar), da [Blog](https://app.linuxupdate.com.br).</sup>
